@@ -40,7 +40,7 @@ public class MainLoja {
         fornecedor.setEndereco("Centro Oeste E");
         fornecedor.setTelefone("70707070");
         fornecedor.setProdutos("VINIL");
-        fornecedoreList.add(fornecedor);
+        loja.cadastrarCliente(fornecedoreList,fornecedor);
         //Funcionario 1
         funcionario.setCargo("Caixa");
         funcionario.setCpf("888888");
